@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="jscjart/main.js" defer></script>
+</head>
+<body>
+    <main class="dashboard">
+        <main class="dashboard">
+            <div class="controls">
+                <button onclick="fetchPokemonByType('fire')">🔥 Fire</button>
+                <button onclick="fetchPokemonByType('water')">💧 Water</button>
+                <button onclick="fetchPokemonByType('grass')">🌿 Grass</button>
+                <button onclick="fetchPokemonByType('electric')">⚡ Electric</button>
+                <button onclick="fetchPokemonByType('random')">🎲 Random</button>
+            </div>
+            <div class="chart-container">
+                <canvas id="speedChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="donutChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="typeChart"></canvas>
+            </div>
+    </main>
+   
+</body>
+</html>
