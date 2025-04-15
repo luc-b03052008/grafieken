@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
     });
 
-    // Clear oude data
+   
     speedChart.data.labels = [];
     speedChart.data.datasets[0].data = [];
     speedChart.data.datasets[0].backgroundColor = [];
